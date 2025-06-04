@@ -66,7 +66,7 @@ with st.form("mood_form", clear_on_submit=True):
     st.write("")
 
     # 1st question
-    st.markdown("<p style='font-size:20px; margin-bottom:0;'> Sooo what's the vibe? </p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:20px; margin-bottom:0;'> Sooo what's the ticket vibe? </p>", unsafe_allow_html=True)
 
     emoji_options = ["🤩", "😁", "🫤", "🤬", "😭", "🤔"]
     emoji = st.selectbox("", emoji_options)
