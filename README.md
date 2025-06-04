@@ -11,9 +11,6 @@ To run the app:
 streamlit run app.py
 ```
 
-**Note:**
-My Google service account credentials file (`my-project-mochi-58e87dc36608.json`) is needed to connect with Google Sheets.
-
 ## ✅ Features
 
 * **Mood Form**
