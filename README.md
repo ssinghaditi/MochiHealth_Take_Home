@@ -12,7 +12,7 @@ https://ssinghaditi-mochihealth-take-home-mochi-health-ooh9ib.streamlit.app/
 or locally:
 
 ```bash
-streamlit run app.py
+streamlit run mochi_health.py
 ```
 
 ## ✅ Features
