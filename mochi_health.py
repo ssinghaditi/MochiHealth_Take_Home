@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 
 # Google Sheets connection
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("my-project-mochi-58e87dc36608.json", scope)
+creds_dict = st.secrets["gcp_service_account"]
+creds = ServiceAccountCredentials.from_json_keyfile_name(creds_dict, scope)
 client = gspread.authorize(creds)
 
 sheet = client.open("Mochi Health").sheet1
