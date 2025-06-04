@@ -31,11 +31,11 @@ streamlit run mochi_health.py
 ## 🛠️ Tech Stack
 
 * Streamlit
-* Google Sheets (https://docs.google.com/spreadsheets/d/1Mq7kRCuTr9hQGI9kYhYuEued-x_MzRNmzEknjF8nTc8/edit?usp=sharing)
+* Google Sheets
 * Matplotlib
 
 ## 📝 Google Sheet Columns
-
+https://docs.google.com/spreadsheets/d/1Mq7kRCuTr9hQGI9kYhYuEued-x_MzRNmzEknjF8nTc8/edit?usp=sharing
 * **Time** – timestamp of form submission
 * **Emoji** – emoji submitted for ticket
 * **Notes** – any notes for the ticket
