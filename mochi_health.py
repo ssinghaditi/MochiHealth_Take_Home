@@ -4,7 +4,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
-from pandas.core.sorting import get_group_index
 
 # Google Sheets connection
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -75,7 +74,7 @@ with st.form("mood_form", clear_on_submit=True):
     st.write("")
 
     # 2nd question
-    st.markdown("<p style='font-size:20px; margin-bottom:0;'> Any notes? </p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:20px; margin-bottom:0;'> Any notes? (optional) </p>", unsafe_allow_html=True)
     notes = st.text_area("", height=150)
 
     st.write("")
